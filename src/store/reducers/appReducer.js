@@ -11,6 +11,8 @@ const initialState = {
     started: true,
     language: 'vi',
     systemMenuPath: '/system/user-manage',
+    doctorMenuPath: '/doctor/manage-schedule',
+
     contentOfConfirmModal: {
         ...initContentOfConfirmModal
     }
@@ -30,6 +32,13 @@ const appReducer = (state = initialState, action) => {
                     ...state.contentOfConfirmModal,
                     ...action.contentOfConfirmModal
                 }
+            }
+            case actionTypes.CHANGE_LANGUAGE:
+                console.log('ok', action)
+            return {
+                ...state,
+                language: action.language,
+            
             }
         default:
             return state;

@@ -1,0 +1,16 @@
+.login-background{
+    //background: rgb(34,193,195);
+    height: 100vh;
+    background: linear-gradient(135deg, rgba(34,193,195,1) 0%,     rgba(253,187,45,1) 100%);
+}
+.custom-input-password{
+    position: relative;
+
+    i{
+        position: absolute;
+        right:7px;
+        top: 10px;
+        cursor: pointer;//hieu ung tro chuot
+    }
+
+}

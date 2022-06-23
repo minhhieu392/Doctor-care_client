@@ -1,19 +1,27 @@
 export const path = {
     HOME: '/',
+    HOMEPAGE:'/home',
     LOGIN: '/login',
     LOG_OUT: '/logout',
-    SYSTEM: '/system'
+    SYSTEM: '/system',
+    DETAIL_DOCTOR:'/detail-doctor/:id',
+    DOCTOR: '/doctor',
+    VERIFY_EMAIL_BOOKING: '/verify-booking',
+    DETAIL_SPECIALTY: '/detail-specialty/:id',
+
 };
 
-export const languages = {
+export const LANGUAGES = {
     VI: 'vi',
     EN: 'en'
 };
  
-export const manageActions = {
+export const CRUD_Actions = {
     ADD: "ADD",
     EDIT: "EDIT",
-    DELETE: "DELETE"
+    DELETE: "DELETE",
+    READ:"READ",
+    CREATE:"CREATE"
 };
 
 export const dateFormat = {
@@ -23,4 +31,9 @@ export const dateFormat = {
 export const YesNoObj = {
     YES: 'Y',
     NO: 'N'
+}
+export const USER_ROLE = {
+    ADMIN: 'R1',
+    DOCTOR: 'R2',
+    PATIENT: 'R3'
 }

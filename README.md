@@ -66,3 +66,12 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+npm  install --save react-slick@0.28.1 sai
+npm install --save slick-carousel@1.8.1
+npm install --save react-image-lightbox@5.1.1
+npm install --save react-markdown-editor-lite@1.3.0
+npm install --save markdown-it@12.1.0
+npm install --save react-select@4.3.1
+lodash thu vien thao tac voi mang
+npm i --save react-number-format@4.6.4
