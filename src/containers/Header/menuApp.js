@@ -33,7 +33,7 @@ export const adminMenu = [
         name: 'menu.admin.clinic', 
         menus: [
             {
-                name: 'menu.admin.crud', link:'/system/user-manage'               
+                name: 'menu.admin.manage-clinic', link:'/system/manage-clinic'               
             },
             {
                 name: 'menu.admin.crud-redux', link:'/system/user-manage'               
@@ -72,6 +72,9 @@ export const doctorMenu = [
                 //quản lú kế hoạch khám bệnh của bác sĩ
                 name :'menu.doctor.manage-schedule', link:'/doctor/manage-schedule'
             },
+            {
+                name: 'menu.doctor.manage-patient', link: '/doctor/manage-patient'
+            }
         ]
     }
 ];

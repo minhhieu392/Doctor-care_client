@@ -75,3 +75,4 @@ npm install --save markdown-it@12.1.0
 npm install --save react-select@4.3.1
 lodash thu vien thao tac voi mang
 npm i --save react-number-format@4.6.4
+npm install --save-exact react-loading-overlay@1.0.1
